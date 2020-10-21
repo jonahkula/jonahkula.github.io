@@ -1,0 +1,22 @@
+body{
+    background: antiquewhite;
+    margin: 15px;
+}
+
+#general{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.socialMedia{
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.socialMedia:hover{
+    color: turquoise;
+}
