@@ -1,22 +1,30 @@
-body{
-    background: antiquewhite;
-    margin: 15px;
+body {
+  background: #faebd7;
+  margin: 15px;
 }
 
-#general{
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#general {
+  margin-bottom: 10px;
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.socialMedia{
-    border: none;
-    background-color: inherit;
-    font-size: 16px;
-    display: inline-block;
+.socialMedia {
+  border: 2px solid #40e0d0;
+  background-color: inherit;
+  color: #000000;
+  padding: 15px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.socialMedia:hover{
-    color: turquoise;
+.socialMedia:hover {
+  background-color: #40e0d0;
+  color: #ffffff;
 }
