@@ -6,63 +6,43 @@
     <meta name="author" content="Jonah Kulakofsky">
     <meta name="keywords" content="jonah, kulakofsky, personal, website, information">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" \>
+    <meta charset="UTF-8">
+    <!-- bulma css -->
+    <link rel="stylesheet" type="text/css" href="/css/solar.css" \>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" \>
     <title>Jonah Kulakofsky</title>
 </head>
 
 <body>
-    <div id="general" class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h2>Jonah Kulakofsky</h2>
+    <section class="hero is-primary">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <h1 class="title is-size-2 has-text-black-ter">
+                    Jonah Kulakofsky
+                </h1>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <p id="about">
-                    My name is Jonah Kulakofsky and I'm currently a computer scientist based
-                    in Santa Cruz, California.
+    </section>
+    <section class="section">
+        <div class="container has-text-centered">
+            <div class="is-size-5">
+                <p>
+                    My name is Jonah Kulakofsky and I'm currently a computer scientist based in Santa Cruz, California.
                 </p>
-                <p id="about">
-                    As of right now, I'm finishing up my degree at UCSC
-                    and got a couple links below you can feel free to check out!
+                <p>
+                    As of right now, I'm finishing up my degree at UCSC and got a couple links below you can feel free
+                    to check out!
                     <hr>
                 </p>
             </div>
+            <button class="button buttonMargin is-rounded"
+                onclick="navigateLink('https://www.linkedin.com/in/jonahkulakofsky/')">LinkedIn</button>
+            <button class="button buttonMargin is-rounded"
+                onclick="navigateLink('https://github.com/jonahkula')">Github</button>
+            <button class="button buttonMargin is-rounded" onclick="navigateLink('./assets/resume.pdf')">Resume</button>
         </div>
-    </div>
-    <div id="general" class="container">
-        <div class="row">
-            <div class="col-sm">
-                <a href="https://www.linkedin.com/in/jonahkulakofsky/" target="_blank">
-                    <button class="socialMedia">LinkedIn</button>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="general" class="container">
-        <div class="row">
-            <div class="col-sm">
-                <a href="https://github.com/jonahkula" target="_blank">
-                    <button class="socialMedia">Github</button>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="general" class="container">
-        <div class="row">
-            <div class="col-sm">
-                <a href="./assets/resume.pdf" target="_blank">
-                    <button class="socialMedia">Resume</button>
-                </a>
-            </div>
-        </div>
-    </div>
+    </section>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
