@@ -2,3 +2,8 @@
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+
+.NavBarFont {
+  font-family: "Bebas Neue", cursive;
+  margin: 0 !important;
+}
