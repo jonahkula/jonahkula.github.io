@@ -2,85 +2,85 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
 
-    <meta name="description" content="Jonah Kulakofsky's Website">
-    <meta name="author" content="Jonah Kulakofsky">
-    <meta name="keywords" content="jonah, kulakofsky, personal, website, information">
+  <meta name="description" content="Jonah Kulakofsky's Website">
+  <meta name="author" content="Jonah Kulakofsky">
+  <meta name="keywords" content="jonah, kulakofsky, personal, website, information">
 
-    <!-- bulma css - https://bulma.io/ -->
-    <!-- solar theme - https://jenil.github.io/bulmaswatch/ -->
-    <link rel="stylesheet" type="text/css" href="/css/solar.css" \>
-    <link rel="stylesheet" type="text/css" href="/css/style.css" \>
+  <!-- bulma css - https://bulma.io/ -->
+  <!-- solar theme - https://jenil.github.io/bulmaswatch/ -->
+  <link rel="stylesheet" type="text/css" href="/css/solar.css" \>
+  <link rel="stylesheet" type="text/css" href="/css/style.css" \>
 
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
-    <title>Jonah Kulakofsky - Home</title>
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+  <title>Jonah Kulakofsky - Home</title>
 </head>
 
 <body>
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <div class="navbar-item NavBarFont title is-3 has-text-centered">
-                Jonah Kulakofsky
-            </div>
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div class="navbar-item NavBarFont title is-3 has-text-centered">
+        Jonah Kulakofsky
+      </div>
 
-            <a role="button" class="navbar-burger NavHeightFix" aria-label="menu" aria-expanded="false"
-                data-target="navbarContents">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+      <a role="button" class="navbar-burger NavHeightFix" aria-label="menu" aria-expanded="false"
+        data-target="navbarContents">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarContents" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/">
+          Home
+        </a>
+
+        <a class="navbar-item" href="/projects.html">
+          Projects
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a class="button is-light" href="mailto:jonahkula@gmail.com">
+            Contact
+          </a>
         </div>
+      </div>
+    </div>
+  </nav>
 
-        <div id="navbarContents" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="/">
-                    Home
-                </a>
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="is-size-5">
+        <p>
+          My name is Jonah Kulakofsky and I'm a software engineer based in San Jose, California.
+        </p>
+        <p>
+          As of right now, I finished up my degree at UCSC and am currently looking for work.
+        </p>
+        <p><br></p>
+        <p>
+          Feel free to check out the links below!
+          <hr>
+        </p>
+      </div>
+      <button class="button buttonMargin is-rounded"
+        onclick="navigateLink('https://www.linkedin.com/in/jonahkulakofsky/')">LinkedIn</button>
+      <button class="button buttonMargin is-rounded"
+        onclick="navigateLink('https://github.com/jonahkula')">Github</button>
+    </div>
+  </section>
 
-                <a class="navbar-item" href="/projects.html">
-                    Projects
-                </a>
-            </div>
-
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <a class="button is-light" href="mailto:jonahkula@gmail.com">
-                        Contact
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <section class="section">
-        <div class="container has-text-centered">
-            <div class="is-size-5">
-                <p>
-                    My name is Jonah Kulakofsky and I'm a software engineer based in San Jose, California.
-                </p>
-                <p>
-                    As of right now, I finished up my degree at UCSC and am currently looking for work.
-                </p>
-                <p><br></p>
-                <p>
-                    Feel free to check out the links below!
-                    <hr>
-                </p>
-            </div>
-            <button class="button buttonMargin is-rounded"
-                onclick="navigateLink('https://www.linkedin.com/in/jonahkulakofsky/')">LinkedIn</button>
-            <button class="button buttonMargin is-rounded"
-                onclick="navigateLink('https://github.com/jonahkula')">Github</button>
-        </div>
-    </section>
-
-    <script src="/js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
