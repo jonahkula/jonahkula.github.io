@@ -16,3 +16,7 @@
   max-width: 19rem;
   margin-bottom: 1.5rem;
 }
+
+.text-width {
+  max-width: 55rem;
+}
