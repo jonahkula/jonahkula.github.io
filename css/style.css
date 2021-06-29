@@ -11,3 +11,8 @@
 .NavHeightFix {
   height: auto;
 }
+
+.pic-width {
+  max-width: 19rem;
+  margin-bottom: 1.5rem;
+}
